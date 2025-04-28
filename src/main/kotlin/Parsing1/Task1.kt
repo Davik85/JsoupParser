@@ -12,7 +12,7 @@ fun main() {
         if (quotes.isEmpty()) {
             println("No quotes found on the page.")
         } else {
-            println("Quotes  from 'The Hitchhiker's Guide to the Galaxy':\n")
+            println("Quotes from 'The Hitchhiker's Guide to the Galaxy':\n")
             quotes.forEachIndexed { index, element ->
                 println("${index + 1}. ${element.text()}")
                 println()
