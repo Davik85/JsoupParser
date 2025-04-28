@@ -7,7 +7,7 @@ fun main() {
 
     try {
         val document = Jsoup.connect(url).get()
-        val quotes = document.select("div.sc-2aegk7-2.bzpNIu")
+        val quotes = document.select("article")
 
         if (quotes.isEmpty()) {
             println("No quotes found on the page.")
